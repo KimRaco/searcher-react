@@ -48,7 +48,7 @@ const Searcher = () => {
                         <React.Fragment key={ char.id } >
                             <div className="card col-3 m-3 ">
                                 <img className='card-img-top' src={char?.image} />
-                                <p className='card-title'>{char?.name}</p>
+                                <p>{char?.name}</p>
                                 
                             </div>
                         </React.Fragment>
